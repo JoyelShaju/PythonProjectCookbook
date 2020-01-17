@@ -1,3 +1,3 @@
 source 'https://supermarket.chef.io'
-metadata
-cookbook 'Python_cookbook'
+
+cookbook 'jobs_watch', git: 'git@github.com:JoyelShaju/PythonProjectCookbook.git'
