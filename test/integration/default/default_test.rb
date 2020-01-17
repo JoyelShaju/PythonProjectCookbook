@@ -14,3 +14,13 @@ end
 describe port(80), :skip do
   it { should_not be_listening }
 end
+
+describe port(80), :skip do
+  it { should_not be_listening}
+end
+describe package ( 'python3') do
+  it{should be_installed}
+end
+describe package ('python3-pip') do
+  it {should be_installed}
+end
